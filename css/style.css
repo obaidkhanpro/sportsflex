@@ -1,0 +1,795 @@
+/* globel css  */
+* {
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Poppins";
+  }
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .container-fluid {
+    max-width: 1700px;
+    margin: 0 auto;
+  }
+  a,
+  a:hover {
+    display: inline-block;
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+  }
+  ul,
+  li,
+  p,
+  a,
+  label,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  span {
+    margin: 0;
+    padding: 0;
+  }
+  @font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Black.woff2") format("woff2"),
+      url("../fonts/Poppins-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-SemiBold.woff2") format("woff2"),
+      url("../fonts/Poppins-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Thin.woff2") format("woff2"),
+      url("../fonts/Poppins-Thin.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Medium.woff2") format("woff2"),
+      url("../fonts/Poppins-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Bold.woff2") format("woff2"),
+      url("../fonts/Poppins-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Light.woff2") format("woff2"),
+      url("../fonts/Poppins-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-ExtraBold.woff2") format("woff2"),
+      url("../fonts/Poppins-ExtraBold.woff") format("woff");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-ExtraLight.woff2") format("woff2"),
+      url("../fonts/Poppins-ExtraLight.woff") format("woff");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.woff2") format("woff2"),
+      url("../fonts/Poppins-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  /* header css starts here  */
+  header{
+      background-color: transparent;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1;
+  }
+  header .list-item li{
+      text-transform: uppercase;
+      margin-right: 50px;
+  }
+  header .logo{
+      padding: 20px 0;
+  }
+  header .list-item li a:hover{
+      color: #1b90de !important;
+  }
+  header .list-item li a{
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 22px;
+  }
+
+
+  .header-content{
+      border-bottom: 1px solid #4f3b40;
+  }
+  header .top-button a:hover{
+background-color: transparent;
+border: 1px solid #000;
+color: #fff !important;
+  }
+  header .top-button a{
+font-size: 16px;
+font-weight: 500;
+line-height: 22px;
+background-color: #fff;
+padding: 13px 20px;
+border-radius: 5px;
+}
+button:focus{
+    outline: none;
+}
+
+  /* heade css ends here */
+  /* banner css starts here */
+  .banner{
+      position: relative;
+      text-align: center;
+      z-index: 0;
+      
+  }
+  .carousel-indicators li{
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      margin-right: 5px;
+      cursor: pointer;
+      
+  }
+  .carousel-indicators {
+    position: absolute;
+    right: 0%;
+    bottom: 50%;
+    transform: rotate(90deg);
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+    left: unset;
+
+}
+.banner-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner-content h1{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    max-width: 691px;
+    padding-bottom: 25px;
+}
+.banner-content h3{
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 32px;
+    padding-bottom: 73px;
+}
+.banner-content a:hover{
+    background-color: rgb(58, 150, 255);
+color: #fff !important;
+}
+.banner-content a{
+font-size: 16px;
+font-weight: 500;
+line-height: 22px;
+background-color: #fff;
+padding: 15px 28px;
+border-radius: 5px;
+}
+.carousel-control-prev{
+    display: none;
+}
+.carousel-control-next{
+    display: none;
+}
+/* banner css ends here */
+/* content css starts here */
+ .about-background{
+    background-image: url(../images/about-bg.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    margin-top: -506px;
+
+}
+.about-content{
+        background-color: #fff;
+        border-radius: 6px;
+        margin-top: -133px;
+        z-index: 1;
+        position: relative;
+        padding: 50px 0 146px ;
+}
+
+.section-about .about-img{
+    position: relative;
+}
+.section-about .about-img img{
+    width: 100%;
+    height: auto;
+}
+.section-about .about-img .about-icons{
+    position: absolute;
+    /* top: 50%; */
+    bottom: 50px;
+    left: 25px;
+}
+.about-content h3{
+    color: #999999;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    padding-bottom: 70px;
+}
+.about-content h1{
+    text-align: right;
+    color: #de1b1b;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+padding-bottom: 34px;
+}
+.about-content p{
+    font-size: 20px;
+    text-align: right;
+    font-weight: 400;
+    line-height: 36px;
+    color: #999999;
+
+
+}
+.about-content .about-icons a{
+    color: #fff;
+    font-size: 14px;
+    vertical-align: middle;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+.about-content .about-icons a i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.overlay{
+ width: 100%;
+height: 100%;
+background-color: rgba(255, 255, 255, 0.9);
+z-index: 1;
+
+}
+.about-row{
+    margin-left: 0;
+    margin-right: 0;
+}
+/* section about ends  */
+/* section facilities starts here */
+.facilities{
+    padding-top: 88px;
+    padding-bottom: 126px;
+    overflow: hidden;
+}
+.facilities h1{
+    font-size: 50PX;
+    font-weight: 700;
+    line-height: 56PX;
+    padding-bottom: 106px;
+}
+.facilities .slides .top-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color:#e0e0e0;
+    position: relative;
+    
+
+}
+.facilities .slides .top-img img{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.slides{
+    text-align: center;
+}
+.facilities .slides h2{
+    padding: 35px 0 25px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    max-width: 225px;
+    margin: 0 auto;
+    min-height: 114px;
+
+}
+.facilities .slides p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #999999;
+    max-width: 256px;
+}
+.slick-dots li button:before{
+    font-size: 75px;
+    top: 100px;
+}
+/* section facilities nends here */
+/* section gallery starts here */
+.gallery{
+    background-image: url(../images/gallery-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* padding: 87px 0 180px; */
+    height: 780px;
+}
+.overlay-gallery{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 1;
+ }
+.gallery h1{
+    padding-top: 87px;
+    padding-bottom: 25px;
+    font-size:50px ;
+    font-weight: 700;
+    line-height: 54px;
+}
+.gallery h6{
+    font-size:20px;
+    font-weight: 500;
+    line-height: 36px;
+    padding-bottom: 35px;
+    height: 100%;
+    object-fit: cover;
+    margin-right: 40px;
+}
+.gallery .img1{
+    width: 100%;
+    height: 363px ;
+}
+.gallery .img1 img{
+    height: 100%;
+}
+.owl-carousel .owl-item{
+    margin-right: 40px !important;
+    max-width: 404px !important;
+    
+    height: auto;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #000000;
+    outline: none;
+}
+.owl-theme .owl-dots .owl-dot span{
+    background-color: #8d8d8d !important;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    /* margin-top: 82px; */
+    position: absolute;
+    bottom: 290px;
+    left: 50%;
+    transform: translatex(-50%);
+}
+    
+
+/* section gallery ends here */
+/* section upcoming events starts here */
+.section-events{
+    padding-top: 60px;
+    padding-bottom: 0px;
+}
+.section-events h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 56px;
+    padding-bottom: 64px;
+}
+.events-content{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+.events-content img{
+    width:100%;
+    object-fit: cover;
+    height: 100%;
+}
+.img-main a{
+    width: 100%;
+    height: 100%;
+}
+.events-content a{
+    width: 100%;
+    /* height: 100%; */
+}
+.section-events .view-all{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.img5{
+    height: 479px;
+    position: relative;
+}
+
+.section-events .view-all a {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.section-events .events-img-info{
+    position: absolute;
+    bottom: 36px;
+    left: 22px;
+}
+.section-events .events-img-info h2{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #ffffff;
+
+}
+.section-events .events-img-info .para-main{
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #ffffff;
+}
+.section-events .events-img-info h6{
+    font-size: 16px;
+    font-weight: 36;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 22px;
+    padding-bottom: 15px;
+    /* font family lora  */
+}
+.img-main{
+    position: relative;
+}
+.img-layer{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* section Events css ends here */
+/* section lodging partners starts here */
+.section-partners{
+    padding:87px  0 67px ;
+
+}
+.section-partners h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 57px;
+    padding-bottom: 50px;
+
+}
+
+
+.clarion{
+    justify-content: center !important;
+}
+.clarion img{
+    margin-left: 80px;
+}
+.section-partners .hilton{
+    align-self: center;
+}
+/* content ends here */
+/* footer css stars here */
+footer{
+    background-color: #151515;
+    padding: 58px 0 42px;
+}
+footer .footer-content h1{
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+color: #fff;
+text-transform: uppercase;
+padding-bottom: 26px;
+}
+footer .footer-content{
+    padding-bottom: 68px;
+    border-bottom: 1px solid #191919;
+}
+footer .footer-content ul li{
+    color: #999999;
+    text-transform: capitalize;
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 500;
+    padding-bottom: 7px;
+}
+.footer-info{
+    padding-bottom: 30px;
+}
+footer .footer-content .address{
+    padding-top: 25px;
+}
+footer .footer-content .address p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #999999;
+    max-width: 188px;
+    padding-left: 21px;
+    padding-bottom: 20px;
+}
+footer .footer-content i:hover{
+    color: rgb(192, 42, 42);
+}
+footer .footer-content  i{
+    color: #3b3b3b;
+    
+}
+footer .footer-content .phone a{
+    font-size: 12px;
+    font-weight: 500;
+    color: #999999;
+    padding-left: 13px;
+    padding-bottom: 20px;
+}
+footer .footer-content a{
+    font-size: 12px;
+    font-weight: 500;
+    color: #999999;
+    padding-left: 13px;
+}
+footer .footer-bottom{
+border-top: 1px solid #252525;
+width: 100%;
+padding-top: 45px;
+}
+footer .footer-bottom p{
+font-size: 12px;
+font-weight: 300;
+line-height: 20px;
+color: #999999;
+}
+/* footer css ends here */
+
+
+/*-------------Media Querries-----------------*/
+
+@media only screen and (max-width:1366px) {
+    .container{
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    .container-fluid{
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    header .list-item li a{
+        font-size: 14px;
+    }
+    header .top-button a{
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+    header .list-item li{
+        margin-right: 0px;
+    }
+    .header-content{
+        text-align: center;
+    }
+
+    header{
+        top: -21px;
+    }
+    .w-100 {
+        width: 100%!important;
+        min-height: 700px;
+    }
+    .banner-content h1 {
+        font-size: 35px;
+    }
+
+}
+/*------------- 1024px -----------------*/
+@media only screen and (max-width:1024px) {
+    header .list-item li {
+        margin-right: 0px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right: 0rem; 
+         padding-left: 0rem; 
+    }     
+    .about-content h1{
+        font-size: 36px;
+    }
+}
+/* ------------- 991px -----------------*/
+@media only screen and (max-width:991px) {
+    header .list-item li {
+      
+        padding: 10px 10px;
+    }
+    
+    .navbar-toggler{
+        background-color: #ffffff;
+    }
+    .navbar-toggler-icon i{
+        font-size: 25px;
+    }
+    .header-content {
+        border-bottom: none;
+    }
+    header .list-item li a{
+        font-size: 18px;
+
+    }
+    .navbar-nav{
+        background: rgb(80, 75, 75);
+        text-align: initial;
+        padding-left: 0px;
+        margin-top: -32px;
+        z-index: 1;
+    
+    }
+    header .list-item li:hover{
+        background-color: #ffffff;
+    }
+    header .list-item li:hover a{
+        color: #ff2626 !important;
+    }
+    header .list-item li a:hover{
+        color: #ff2626 !important;
+    }   
+}
+/*------------- 991px -----------------*/
+@media only screen and (max-width:991px) {
+    .banner-content h1 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    header .navbar-toggler-icon i{
+        padding-top: 4px;
+    }
+    .banner-content h3 {
+        font-size: 23px;}
+        .top-button{
+            display: none;
+        }
+}
+/*------------- 767px -----------------*/
+@media only screen and (max-width:767px) {
+    .about-content h1{
+        text-align: left;
+        font-size: 34px;
+        text-transform: capitalize;
+    }
+    .about-content p {
+        text-align: left;
+    }
+    .about-content {
+        padding: 45px 0 0;
+    }
+    .about-content h3{
+        padding-bottom: 50px;
+    }
+    .justify-content-end{
+        justify-content: center !important;
+   margin-bottom: 50px;
+    } 
+    .banner-content{
+        width: 80%;
+    }
+    .facilities {
+        padding-top: 50px;
+        padding-bottom: 119px;
+
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0%;
+    bottom: 36%;}
+}
+
+/*------------- 640px -----------------*/
+@media only screen and (max-width:640px) {
+    .clarion {
+        justify-content: center !important;
+        padding-bottom: 50px;
+    }
+    .clarion img{
+        margin-left: 0;
+    }
+    .hilton {
+        align-self: center;
+        justify-content: center !important;}
+        .section-partners {
+            padding: 50px 0;
+        }
+}
+/*------------- 480px -----------------*/
+@media only screen and (max-width:480px) {
+    .about-content h1{
+        font-size: 25px;
+    }
+    .facilities h1 {
+        font-size: 40px;
+        padding-bottom: 50px;
+}
+.facilities {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section-events h1 {
+    font-size: 28px;
+}
+.section-partners h1 {
+    font-size: 30px;
+}
+.hilton img{
+width: 100%;
+}
+.section-partners {
+    padding: 50px 0 ;
+}
+}
+/* the end */
